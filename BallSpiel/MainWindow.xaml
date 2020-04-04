@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="LernMoments BallSpiel" Height="450" Width="800">
     <Grid>
-        
+        <Button Content="Start/Stop" Name="StartStopButton" HorizontalAlignment="Left" Margin="59,97,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="0 Clicks" Name="SpielstandLabel" HorizontalAlignment="Left" Margin="59,134,0,0" VerticalAlignment="Top"/>
+        <Canvas Margin="194,0,0,0" Name="Spielplatz" Background="#F9F2E7"/>
+
     </Grid>
 </Window>
